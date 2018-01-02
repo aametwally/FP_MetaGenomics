@@ -113,7 +113,8 @@ ssh-keygen -t rsa
 
 Just press enter for all prompts following this command until the RSA key is generated. Then make a directory on your Extreme account for SSH login keys:
 ```
-ssh <YOURNETID>@login-1.extreme.uic.edu mkdir -p .ssh
+ssh <YOURNETID>@login-1.extreme.uic.edu 
+mkdir -p .ssh
 ```
 
 And transfer your computer’s newly generated public RSA key to your Extreme account:
@@ -141,4 +142,4 @@ You can also copy files from your Extreme account to your local virtual machine.
 ```
 scp <YOURNETID>@login-1.extreme.uic.edu:<PATH TO FILE> <PATH TO DESTINATION>
 ```
-Now you are ready to move on to the next part of the tutorial and [install WEVOTE](https://github.com/pophipi/WEVOTE/blob/master/TUTORIAL.md). 
+Now you are ready to move on to the next part of the tutorial and [install WEVOTE](https://github.com/aametwally/WEVOTE/blob/master/TUTORIAL.md). 
