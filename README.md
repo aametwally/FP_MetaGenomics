@@ -1,8 +1,7 @@
 ## FP-Metagenomics-Pipeline ##
 
-This analysis pipeline is primarily designed to analyze data coming from Illumina MiSeq Sequencing machine. Nevertheless, with a few changes, it can be adapted to any sequencing platforms.
+This analysis pipeline is primarily designed to analyze data coming from Illumina MiSeq Sequencing machine. Nevertheless, with a few changes, it can be adapted to any sequencing platforms. This metagenomic pipeline is under active research development. Please report any bugs/suggestions to Ahmed Metwally (ametwa2@uic.edu).
 
-The Pipeline isn't yet fully commented and finished!
 
 # Getting Started
 This section details steps for installing and running the FP-Metagenomics-Pipeline for use on the UIC Extreme cluster. Current the FP-Metagenomics-Pipeline version only supports Linux. If you experience difficulty installing or running the software, please contact (Ahmed Metwally: ametwa2@uic.edu).
@@ -30,7 +29,7 @@ FP_MetaGenomics  MetaGeneMark_linux_64  MetaVelvet  MOCAT  ncbi-blast  nt  velve
 Since we will always place the pipeline PACKAGE in your home directory, you can add the pipeline's executable programs to the system PATH and PERL5LIB environment variables with the following:
 ```
 export PATH=$PATH:~/FP_meta_PACKAGE/FP_MetaGenomics:~/FP_meta_PACKAGE/MOCAT/src
-export PERL5LIB=$PERL5LIB:~/Documents/FP_meta_PACKAGE/MOCAT/src
+export PERL5LIB=$PERL5LIB:~/FP_meta_PACKAGE/MOCAT/src
 ```
 
 To make these changes permanent, you need to add the lines of code above to your ~/.profile file using vim. Then load the .profile file:
