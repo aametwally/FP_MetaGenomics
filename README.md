@@ -30,6 +30,7 @@ Since we will always place the pipeline PACKAGE in your home directory, you can 
 ```
 export PATH=$PATH:~/FP_meta_PACKAGE/FP_MetaGenomics:~/FP_meta_PACKAGE/MOCAT/src
 export PERL5LIB=$PERL5LIB:~/FP_meta_PACKAGE/MOCAT/src
+export PATH=$PATH:~/FP_meta_PACKAGE/bin
 ```
 
 To make these changes permanent, you need to add the lines of code above to your ~/.profile file using vim. Then load the .profile file:
