@@ -28,8 +28,8 @@ FP_MetaGenomics  MetaGeneMark_linux_64  MetaVelvet  MOCAT  ncbi-blast  nt  velve
 #### Add FP-Metagenomics-Pipeline path to the PATH environmental variable
 Since we will always place the pipeline PACKAGE in your home directory, you can add the pipeline's executable programs to the system PATH and PERL5LIB environment variables with the following:
 ```
-export PATH=$PATH:~/FP_meta_PACKAGE/FP_MetaGenomics:~/FP_meta_PACKAGE/MOCAT/src
 export PERL5LIB=$PERL5LIB:~/FP_meta_PACKAGE/MOCAT/src
+export PATH=$PATH:~/FP_meta_PACKAGE/MOCAT/src
 export PATH=$PATH:~/FP_meta_PACKAGE/bin
 ```
 
