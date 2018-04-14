@@ -8,8 +8,8 @@ This section details steps for installing and running the FP-Metagenomics-Pipeli
 
 ### Prerequisites
 * Active user account on UIC Extreme
-* Installed and configured Linux on VirtualBox according to WEVOTE Installation tutorial
-* Basic knowledge of Linux navigation from WEVOTE tutorial
+* Having an access to "Terminal" through Linux, MAC, or installed application on Windows
+* Basic knowledge of Terminal commandline
 
 ## Installing, Testing, and Running
 
